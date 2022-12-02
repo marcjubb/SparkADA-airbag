@@ -1,0 +1,1172 @@
+module Airbag_system__velocity_range
+  use _gnatprove_standard.Main
+  use int.Int
+  use int.Int
+  
+  type velocity_range = <range -300000 300000>
+  
+  val function first : int
+    ensures { result = ((- 300000) : int) }
+  
+  val function last : int
+    ensures { result = (300000 : int) }
+  
+  predicate in_range (x: int) = ((first <= x) /\ (x <= last))
+  
+  val in_range (x: int) : bool
+    ensures { result <-> (in_range (x : int)) }
+  
+  clone export ada__model.Static_Discrete with
+    axiom .,
+    type t = velocity_range,
+    function first = first,
+    function last = last,
+    predicate in_range = in_range
+  
+  type velocity_range__ref = {
+                            mutable velocity_range__content : velocity_range
+                            }
+  
+  function velocity_range__ref_velocity_range__content__projection (a: velocity_range__ref) : velocity_range =
+    a.velocity_range__content
+  
+  meta "model_projection" function velocity_range__ref_velocity_range__content__projection
+  
+  meta "inline:no" function velocity_range__ref_velocity_range__content__projection
+  
+  val velocity_range__havoc (x: velocity_range__ref) : unit
+    writes { x }
+end
+
+module Airbag_system__velocity_range__rep
+  use Airbag_system__velocity_range as Airbag_system__velocity_range
+  use _gnatprove_standard.Main
+  use int.Int
+  
+  function to_rep (x: Airbag_system__velocity_range.velocity_range) : int =
+    Airbag_system__velocity_range.velocity_range'int x
+  
+  clone export ada__model.Rep_Proj_Int with
+    axiom .,
+    type t = Airbag_system__velocity_range.velocity_range,
+    predicate in_range = Airbag_system__velocity_range.in_range,
+    function to_rep = to_rep
+  
+  meta "model_projection" function to_rep
+  
+  meta "inline:no" function to_rep
+end
+
+module Airbag_system__time_range
+  use _gnatprove_standard.Main
+  use int.Int
+  use int.Int
+  
+  type time_range = <range 0 1000>
+  
+  val function first : int
+    ensures { result = (0 : int) }
+  
+  val function last : int
+    ensures { result = (1000 : int) }
+  
+  predicate in_range (x: int) = ((first <= x) /\ (x <= last))
+  
+  val in_range (x: int) : bool
+    ensures { result <-> (in_range (x : int)) }
+  
+  clone export ada__model.Static_Discrete with
+    axiom .,
+    type t = time_range,
+    function first = first,
+    function last = last,
+    predicate in_range = in_range
+  
+  type time_range__ref = { mutable time_range__content : time_range }
+  
+  function time_range__ref_time_range__content__projection (a: time_range__ref) : time_range =
+    a.time_range__content
+  
+  meta "model_projection" function time_range__ref_time_range__content__projection
+  
+  meta "inline:no" function time_range__ref_time_range__content__projection
+  
+  val time_range__havoc (x: time_range__ref) : unit
+    writes { x }
+end
+
+module Airbag_system__time_range__rep
+  use Airbag_system__time_range as Airbag_system__time_range
+  use _gnatprove_standard.Main
+  use int.Int
+  
+  function to_rep (x: Airbag_system__time_range.time_range) : int =
+    Airbag_system__time_range.time_range'int x
+  
+  clone export ada__model.Rep_Proj_Int with
+    axiom .,
+    type t = Airbag_system__time_range.time_range,
+    predicate in_range = Airbag_system__time_range.in_range,
+    function to_rep = to_rep
+  
+  meta "model_projection" function to_rep
+  
+  meta "inline:no" function to_rep
+end
+
+module Airbag_system__acceleration_range
+  use _gnatprove_standard.Main
+  use int.Int
+  use int.Int
+  
+  type acceleration_range = <range -300000 100000>
+  
+  val function first : int
+    ensures { result = ((- 300000) : int) }
+  
+  val function last : int
+    ensures { result = (100000 : int) }
+  
+  predicate in_range (x: int) = ((first <= x) /\ (x <= last))
+  
+  val in_range (x: int) : bool
+    ensures { result <-> (in_range (x : int)) }
+  
+  clone export ada__model.Static_Discrete with
+    axiom .,
+    type t = acceleration_range,
+    function first = first,
+    function last = last,
+    predicate in_range = in_range
+  
+  type acceleration_range__ref = {
+                                mutable acceleration_range__content :
+                                  acceleration_range
+                                }
+  
+  function acceleration_range__ref_acceleration_range__content__projection (a: acceleration_range__ref) : acceleration_range =
+    a.acceleration_range__content
+  
+  meta "model_projection" function acceleration_range__ref_acceleration_range__content__projection
+  
+  meta "inline:no" function acceleration_range__ref_acceleration_range__content__projection
+  
+  val acceleration_range__havoc (x: acceleration_range__ref) : unit
+    writes { x }
+end
+
+module Airbag_system__acceleration_range__rep
+  use Airbag_system__acceleration_range as Airbag_system__acceleration_range
+  use _gnatprove_standard.Main
+  use int.Int
+  
+  function to_rep (x: Airbag_system__acceleration_range.acceleration_range) : int =
+    Airbag_system__acceleration_range.acceleration_range'int x
+  
+  clone export ada__model.Rep_Proj_Int with
+    axiom .,
+    type t = Airbag_system__acceleration_range.acceleration_range,
+    predicate in_range = Airbag_system__acceleration_range.in_range,
+    function to_rep = to_rep
+  
+  meta "model_projection" function to_rep
+  
+  meta "inline:no" function to_rep
+end
+
+module Airbag_system__status_airbag_system_type
+  use _gnatprove_standard.Main
+  use int.Int
+  use int.Int
+  
+  type status_airbag_system_type
+  
+  val function first : int
+    ensures { result = (0 : int) }
+  
+  val function last : int
+    ensures { result = (1 : int) }
+  
+  predicate in_range (x: int) = ((first <= x) /\ (x <= last))
+  
+  val in_range (x: int) : bool
+    ensures { result <-> (in_range (x : int)) }
+  
+  clone export ada__model.Static_Discrete with
+    axiom .,
+    type t = status_airbag_system_type,
+    function first = first,
+    function last = last,
+    predicate in_range = in_range
+  
+  type status_airbag_system_type__ref = {
+                                       mutable status_airbag_system_type__content :
+                                         status_airbag_system_type
+                                       }
+  
+  function status_airbag_system_type__ref_status_airbag_system_type__content__projection (a: status_airbag_system_type__ref) : status_airbag_system_type =
+    a.status_airbag_system_type__content
+  
+  meta "model_projection" function status_airbag_system_type__ref_status_airbag_system_type__content__projection
+  
+  meta "inline:no" function status_airbag_system_type__ref_status_airbag_system_type__content__projection
+  
+  val status_airbag_system_type__havoc (x: status_airbag_system_type__ref) : 
+    unit
+    writes { x }
+end
+
+module Airbag_system__status_airbag_system_type__rep
+  use Airbag_system__status_airbag_system_type as Airbag_system__status_airbag_system_type
+  use _gnatprove_standard.Main
+  use int.Int
+  clone export ada__model.Rep_Proj_Int with
+    axiom .,
+    type t = Airbag_system__status_airbag_system_type.status_airbag_system_type,
+    predicate in_range = Airbag_system__status_airbag_system_type.in_range
+  
+  meta "model_projection" function to_rep
+  
+  meta "inline:no" function to_rep
+end
+
+module Airbag_system__status_system_type__rep
+  use _gnatprove_standard.Main
+  use int.Int
+  use Airbag_system__velocity_range as Airbag_system__velocity_range
+  use Airbag_system__velocity_range__rep as Airbag_system__velocity_range__rep
+  use Airbag_system__time_range as Airbag_system__time_range
+  use Airbag_system__time_range__rep as Airbag_system__time_range__rep
+  use Airbag_system__acceleration_range as Airbag_system__acceleration_range
+  use Airbag_system__acceleration_range__rep as Airbag_system__acceleration_range__rep
+  use Airbag_system__status_airbag_system_type as Airbag_system__status_airbag_system_type
+  use Airbag_system__status_airbag_system_type__rep as Airbag_system__status_airbag_system_type__rep
+  
+  type __split_fields = {
+                       rec__airbag_system__status_system_type__initial_velocity_measured :
+                         Airbag_system__velocity_range.velocity_range;
+                       rec__airbag_system__status_system_type__final_velocity_measured :
+                         Airbag_system__velocity_range.velocity_range;
+                       rec__airbag_system__status_system_type__time_difference_measured :
+                         Airbag_system__time_range.time_range;
+                       rec__airbag_system__status_system_type__acceleration_measured :
+                         Airbag_system__acceleration_range.acceleration_range;
+                       rec__airbag_system__status_system_type__status_airbag_system :
+                         Airbag_system__status_airbag_system_type.status_airbag_system_type
+                       }
+  
+  function __split_fields_rec__airbag_system__status_system_type__initial_velocity_measured__projection (a: __split_fields) : 
+    Airbag_system__velocity_range.velocity_range =
+    a.rec__airbag_system__status_system_type__initial_velocity_measured
+  
+  meta "model_projection" function __split_fields_rec__airbag_system__status_system_type__initial_velocity_measured__projection
+  
+  meta "inline:no" function __split_fields_rec__airbag_system__status_system_type__initial_velocity_measured__projection
+  
+  function __split_fields_rec__airbag_system__status_system_type__final_velocity_measured__projection (a: __split_fields) : 
+    Airbag_system__velocity_range.velocity_range =
+    a.rec__airbag_system__status_system_type__final_velocity_measured
+  
+  meta "model_projection" function __split_fields_rec__airbag_system__status_system_type__final_velocity_measured__projection
+  
+  meta "inline:no" function __split_fields_rec__airbag_system__status_system_type__final_velocity_measured__projection
+  
+  function __split_fields_rec__airbag_system__status_system_type__time_difference_measured__projection (a: __split_fields) : 
+    Airbag_system__time_range.time_range =
+    a.rec__airbag_system__status_system_type__time_difference_measured
+  
+  meta "model_projection" function __split_fields_rec__airbag_system__status_system_type__time_difference_measured__projection
+  
+  meta "inline:no" function __split_fields_rec__airbag_system__status_system_type__time_difference_measured__projection
+  
+  function __split_fields_rec__airbag_system__status_system_type__acceleration_measured__projection (a: __split_fields) : 
+    Airbag_system__acceleration_range.acceleration_range =
+    a.rec__airbag_system__status_system_type__acceleration_measured
+  
+  meta "model_projection" function __split_fields_rec__airbag_system__status_system_type__acceleration_measured__projection
+  
+  meta "inline:no" function __split_fields_rec__airbag_system__status_system_type__acceleration_measured__projection
+  
+  function __split_fields_rec__airbag_system__status_system_type__status_airbag_system__projection (a: __split_fields) : 
+    Airbag_system__status_airbag_system_type.status_airbag_system_type =
+    a.rec__airbag_system__status_system_type__status_airbag_system
+  
+  meta "model_projection" function __split_fields_rec__airbag_system__status_system_type__status_airbag_system__projection
+  
+  meta "inline:no" function __split_fields_rec__airbag_system__status_system_type__status_airbag_system__projection
+  
+  type __split_fields__ref = {
+                            mutable __split_fields__content : __split_fields
+                            }
+  
+  function __split_fields__ref___split_fields__content__projection (a: __split_fields__ref) : __split_fields =
+    __split_fields__content a
+  
+  meta "model_projection" function __split_fields__ref___split_fields__content__projection
+  
+  meta "inline:no" function __split_fields__ref___split_fields__content__projection
+  
+  val __split_fields__havoc (x: __split_fields__ref) : unit
+    writes { x }
+  
+  type __rep = { __split_fields : __split_fields }
+  
+  function __rep___split_fields__projection (a: __rep) : __split_fields =
+    __split_fields a
+  
+  meta "model_projection" function __rep___split_fields__projection
+  
+  meta "inline:no" function __rep___split_fields__projection
+  
+  function to_base (a: __rep) : __rep = a
+  
+  val to_base (a: __rep) : __rep
+    ensures { result = (to_base (a : __rep)) }
+  
+  function of_base (a: __rep) : __rep = a
+  
+  val of_base (a: __rep) : __rep
+    ensures { result = (of_base (a : __rep)) }
+  
+  predicate airbag_system__status_system_type__initial_velocity_measured__pred (a: __rep) =
+    true
+  
+  val airbag_system__status_system_type__initial_velocity_measured__pred (a: __rep) : 
+    bool
+    ensures { result
+                <->
+                (airbag_system__status_system_type__initial_velocity_measured__pred
+                   (a : __rep)) }
+  
+  val rec__airbag_system__status_system_type__initial_velocity_measured_ (a: __rep) : 
+    Airbag_system__velocity_range.velocity_range
+    requires { airbag_system__status_system_type__initial_velocity_measured__pred
+                 a
+    }
+    ensures { (result
+                 = ((__split_fields a).rec__airbag_system__status_system_type__initial_velocity_measured)) }
+  
+  predicate airbag_system__status_system_type__final_velocity_measured__pred (a: __rep) =
+    true
+  
+  val airbag_system__status_system_type__final_velocity_measured__pred (a: __rep) : 
+    bool
+    ensures { result
+                <->
+                (airbag_system__status_system_type__final_velocity_measured__pred
+                   (a : __rep)) }
+  
+  val rec__airbag_system__status_system_type__final_velocity_measured_ (a: __rep) : 
+    Airbag_system__velocity_range.velocity_range
+    requires { airbag_system__status_system_type__final_velocity_measured__pred
+                 a
+    }
+    ensures { (result
+                 = ((__split_fields a).rec__airbag_system__status_system_type__final_velocity_measured)) }
+  
+  predicate airbag_system__status_system_type__time_difference_measured__pred (a: __rep) =
+    true
+  
+  val airbag_system__status_system_type__time_difference_measured__pred (a: __rep) : 
+    bool
+    ensures { result
+                <->
+                (airbag_system__status_system_type__time_difference_measured__pred
+                   (a : __rep)) }
+  
+  val rec__airbag_system__status_system_type__time_difference_measured_ (a: __rep) : 
+    Airbag_system__time_range.time_range
+    requires { airbag_system__status_system_type__time_difference_measured__pred
+                 a
+    }
+    ensures { (result
+                 = ((__split_fields a).rec__airbag_system__status_system_type__time_difference_measured)) }
+  
+  predicate airbag_system__status_system_type__acceleration_measured__pred (a: __rep) =
+    true
+  
+  val airbag_system__status_system_type__acceleration_measured__pred (a: __rep) : 
+    bool
+    ensures { result
+                <->
+                (airbag_system__status_system_type__acceleration_measured__pred
+                   (a : __rep)) }
+  
+  val rec__airbag_system__status_system_type__acceleration_measured_ (a: __rep) : 
+    Airbag_system__acceleration_range.acceleration_range
+    requires { airbag_system__status_system_type__acceleration_measured__pred
+                 a
+    }
+    ensures { (result
+                 = ((__split_fields a).rec__airbag_system__status_system_type__acceleration_measured)) }
+  
+  predicate airbag_system__status_system_type__status_airbag_system__pred (a: __rep) =
+    true
+  
+  val airbag_system__status_system_type__status_airbag_system__pred (a: __rep) : 
+    bool
+    ensures { result
+                <->
+                (airbag_system__status_system_type__status_airbag_system__pred
+                   (a : __rep)) }
+  
+  val rec__airbag_system__status_system_type__status_airbag_system_ (a: __rep) : 
+    Airbag_system__status_airbag_system_type.status_airbag_system_type
+    requires { airbag_system__status_system_type__status_airbag_system__pred
+                 a
+    }
+    ensures { (result
+                 = ((__split_fields a).rec__airbag_system__status_system_type__status_airbag_system)) }
+  
+  function bool_eq (a: __rep) (b: __rep) : bool =
+    if ((((Airbag_system__velocity_range__rep.to_rep
+             ((__split_fields a).rec__airbag_system__status_system_type__initial_velocity_measured))
+            = (Airbag_system__velocity_range__rep.to_rep
+                 ((__split_fields b).rec__airbag_system__status_system_type__initial_velocity_measured))) /\
+           ((Airbag_system__velocity_range__rep.to_rep
+               ((__split_fields a).rec__airbag_system__status_system_type__final_velocity_measured))
+              = (Airbag_system__velocity_range__rep.to_rep
+                   ((__split_fields b).rec__airbag_system__status_system_type__final_velocity_measured)))) /\
+          ((((Airbag_system__time_range__rep.to_rep
+                ((__split_fields a).rec__airbag_system__status_system_type__time_difference_measured))
+               = (Airbag_system__time_range__rep.to_rep
+                    ((__split_fields b).rec__airbag_system__status_system_type__time_difference_measured))) /\
+              ((Airbag_system__acceleration_range__rep.to_rep
+                  ((__split_fields a).rec__airbag_system__status_system_type__acceleration_measured))
+                 = (Airbag_system__acceleration_range__rep.to_rep
+                      ((__split_fields b).rec__airbag_system__status_system_type__acceleration_measured)))) /\
+             ((Airbag_system__status_airbag_system_type__rep.to_rep
+                 ((__split_fields a).rec__airbag_system__status_system_type__status_airbag_system))
+                = (Airbag_system__status_airbag_system_type__rep.to_rep
+                     ((__split_fields b).rec__airbag_system__status_system_type__status_airbag_system))))) then
+      True
+    else False
+  
+  val bool_eq (a: __rep) (b: __rep) : bool
+    ensures { result = ((bool_eq (a : __rep)) (b : __rep)) }
+end
+
+module Airbag_system__status_system_type
+  use export Airbag_system__status_system_type__rep
+  use _gnatprove_standard.Main
+  use int.Int
+  use int.Int
+  
+  type status_system_type = __rep
+  
+  val function value__size : int
+  
+  val function object__size : int
+  
+  val function alignment : int
+  
+  axiom value__size_axiom: (value__size >= (0 : int))
+  
+  axiom object__size_axiom: (object__size >= (0 : int))
+  
+  axiom alignment_axiom: (alignment >= (0 : int))
+  
+  val function airbag_system__status_system_type__initial_velocity_measured__first__bit : 
+    int
+  
+  val function airbag_system__status_system_type__initial_velocity_measured__last__bit : 
+    int
+  
+  val function airbag_system__status_system_type__initial_velocity_measured__position : 
+    int
+  
+  axiom airbag_system__status_system_type__initial_velocity_measured__first__bit_axiom:
+    (airbag_system__status_system_type__initial_velocity_measured__first__bit
+       >= (0 : int))
+  
+  axiom airbag_system__status_system_type__initial_velocity_measured__last__bit_axiom:
+    (airbag_system__status_system_type__initial_velocity_measured__last__bit
+       > airbag_system__status_system_type__initial_velocity_measured__first__bit)
+  
+  axiom airbag_system__status_system_type__initial_velocity_measured__position_axiom:
+    (airbag_system__status_system_type__initial_velocity_measured__position
+       >= (0 : int))
+  
+  val function airbag_system__status_system_type__final_velocity_measured__first__bit : 
+    int
+  
+  val function airbag_system__status_system_type__final_velocity_measured__last__bit : 
+    int
+  
+  val function airbag_system__status_system_type__final_velocity_measured__position : 
+    int
+  
+  axiom airbag_system__status_system_type__final_velocity_measured__first__bit_axiom:
+    (airbag_system__status_system_type__final_velocity_measured__first__bit
+       >= (0 : int))
+  
+  axiom airbag_system__status_system_type__final_velocity_measured__last__bit_axiom:
+    (airbag_system__status_system_type__final_velocity_measured__last__bit
+       > airbag_system__status_system_type__final_velocity_measured__first__bit)
+  
+  axiom airbag_system__status_system_type__final_velocity_measured__position_axiom:
+    (airbag_system__status_system_type__final_velocity_measured__position
+       >= (0 : int))
+  
+  val function airbag_system__status_system_type__time_difference_measured__first__bit : 
+    int
+  
+  val function airbag_system__status_system_type__time_difference_measured__last__bit : 
+    int
+  
+  val function airbag_system__status_system_type__time_difference_measured__position : 
+    int
+  
+  axiom airbag_system__status_system_type__time_difference_measured__first__bit_axiom:
+    (airbag_system__status_system_type__time_difference_measured__first__bit
+       >= (0 : int))
+  
+  axiom airbag_system__status_system_type__time_difference_measured__last__bit_axiom:
+    (airbag_system__status_system_type__time_difference_measured__last__bit
+       > airbag_system__status_system_type__time_difference_measured__first__bit)
+  
+  axiom airbag_system__status_system_type__time_difference_measured__position_axiom:
+    (airbag_system__status_system_type__time_difference_measured__position
+       >= (0 : int))
+  
+  val function airbag_system__status_system_type__acceleration_measured__first__bit : 
+    int
+  
+  val function airbag_system__status_system_type__acceleration_measured__last__bit : 
+    int
+  
+  val function airbag_system__status_system_type__acceleration_measured__position : 
+    int
+  
+  axiom airbag_system__status_system_type__acceleration_measured__first__bit_axiom:
+    (airbag_system__status_system_type__acceleration_measured__first__bit
+       >= (0 : int))
+  
+  axiom airbag_system__status_system_type__acceleration_measured__last__bit_axiom:
+    (airbag_system__status_system_type__acceleration_measured__last__bit
+       > airbag_system__status_system_type__acceleration_measured__first__bit)
+  
+  axiom airbag_system__status_system_type__acceleration_measured__position_axiom:
+    (airbag_system__status_system_type__acceleration_measured__position
+       >= (0 : int))
+  
+  val function airbag_system__status_system_type__status_airbag_system__first__bit : 
+    int
+  
+  val function airbag_system__status_system_type__status_airbag_system__last__bit : 
+    int
+  
+  val function airbag_system__status_system_type__status_airbag_system__position : 
+    int
+  
+  axiom airbag_system__status_system_type__status_airbag_system__first__bit_axiom:
+    (airbag_system__status_system_type__status_airbag_system__first__bit
+       >= (0 : int))
+  
+  axiom airbag_system__status_system_type__status_airbag_system__last__bit_axiom:
+    (airbag_system__status_system_type__status_airbag_system__last__bit
+       > airbag_system__status_system_type__status_airbag_system__first__bit)
+  
+  axiom airbag_system__status_system_type__status_airbag_system__position_axiom:
+    (airbag_system__status_system_type__status_airbag_system__position
+       >= (0 : int))
+  
+  val function user_eq (a: status_system_type) (b: status_system_type) : 
+    bool
+  
+  val function dummy : status_system_type
+  
+  type status_system_type__ref = {
+                                mutable status_system_type__content :
+                                  status_system_type
+                                }
+  
+  function status_system_type__ref_status_system_type__content__projection (a: status_system_type__ref) : status_system_type =
+    a.status_system_type__content
+  
+  meta "model_projection" function status_system_type__ref_status_system_type__content__projection
+  
+  meta "inline:no" function status_system_type__ref_status_system_type__content__projection
+  
+  val status_system_type__havoc (x: status_system_type__ref) : unit
+    writes { x }
+end
+
+module Airbag_system__status_system
+  use _gnatprove_standard.Main
+  use int.Int
+  use Airbag_system__status_system_type as Airbag_system__status_system_type
+  
+  val status_system__split_fields : Airbag_system__status_system_type.__split_fields__ref
+end
+
+module Airbag_system__status_system_type___axiom
+  use _gnatprove_standard.Main
+  use int.Int
+  use Airbag_system__status_system_type as Airbag_system__status_system_type
+  
+  predicate dynamic_invariant (temp___expr_215: Airbag_system__status_system_type.status_system_type) (temp___is_init_211: bool) (temp___skip_constant_212: bool) (temp___do_toplevel_213: bool) (temp___do_typ_inv_214: bool) =
+    true
+  
+  val dynamic_invariant (temp___expr_215: Airbag_system__status_system_type.status_system_type) (temp___is_init_211: bool) (temp___skip_constant_212: bool) (temp___do_toplevel_213: bool) (temp___do_typ_inv_214: bool) : 
+    bool
+    ensures { result
+                <->
+                (((((dynamic_invariant
+                       (temp___expr_215 :
+                          Airbag_system__status_system_type.status_system_type))
+                      (temp___is_init_211 : bool))
+                     (temp___skip_constant_212 : bool))
+                    (temp___do_toplevel_213 : bool))
+                   (temp___do_typ_inv_214 : bool)) }
+  
+  predicate default_initial_assumption (temp___expr_216: Airbag_system__status_system_type.status_system_type) (temp___skip_top_level_217: bool) =
+    true
+  
+  val default_initial_assumption (temp___expr_216: Airbag_system__status_system_type.status_system_type) (temp___skip_top_level_217: bool) : 
+    bool
+    ensures { result
+                <->
+                ((default_initial_assumption
+                    (temp___expr_216 :
+                       Airbag_system__status_system_type.status_system_type))
+                   (temp___skip_top_level_217 : bool)) }
+end
+
+module Airbag_system__is_safe
+  use _gnatprove_standard.Main
+  use int.Int
+  use Airbag_system__status_system_type as Airbag_system__status_system_type
+  
+  val function is_safe (status: Airbag_system__status_system_type.status_system_type) : 
+    bool
+  
+  val predicate is_safe__function_guard (temp___result_161: bool) (status: 
+    Airbag_system__status_system_type.status_system_type)
+end
+
+module Airbag_system__is_safe___axiom
+  use _gnatprove_standard.Main
+  use int.Int
+  use int.Int
+  use Airbag_system__status_system_type as Airbag_system__status_system_type
+  use Airbag_system__status_system_type___axiom as Airbag_system__status_system_type___axiom
+  use Airbag_system__is_safe as Airbag_system__is_safe
+  use Airbag_system__acceleration_range as Airbag_system__acceleration_range
+  use Airbag_system__acceleration_range__rep as Airbag_system__acceleration_range__rep
+  use Airbag_system__status_airbag_system_type as Airbag_system__status_airbag_system_type
+  use Airbag_system__status_airbag_system_type__rep as Airbag_system__status_airbag_system_type__rep
+  
+  val is_safe (status: Airbag_system__status_system_type.status_system_type) : 
+    bool
+    requires { true }
+    ensures { (((result = (Airbag_system__is_safe.is_safe status)) /\
+                  ((Airbag_system__is_safe.is_safe__function_guard result)
+                     status)) /\
+                 (result
+                    = (if ((Airbag_system__acceleration_range__rep.to_rep
+                              ((Airbag_system__status_system_type.__split_fields
+                                   status).Airbag_system__status_system_type.rec__airbag_system__status_system_type__acceleration_measured))
+                             < ((- 35303) : int)) then
+                         ((Airbag_system__status_airbag_system_type__rep.to_rep
+                             ((Airbag_system__status_system_type.__split_fields
+                                  status).Airbag_system__status_system_type.rec__airbag_system__status_system_type__status_airbag_system))
+                            = (0 : int))
+                       else
+                         ((Airbag_system__status_airbag_system_type__rep.to_rep
+                             ((Airbag_system__status_system_type.__split_fields
+                                  status).Airbag_system__status_system_type.rec__airbag_system__status_system_type__status_airbag_system))
+                            = (1 : int))))) }
+  
+  axiom is_safe__post_axiom:
+    forall status : Airbag_system__status_system_type.status_system_type
+          [Airbag_system__is_safe.is_safe status].
+      ((((((Airbag_system__status_system_type___axiom.dynamic_invariant
+              status)
+             True)
+            True)
+           True)
+          True) ->
+         (let result = Airbag_system__is_safe.is_safe status in
+          if ((Airbag_system__is_safe.is_safe__function_guard result) status) then
+            ((true /\ true) /\ true)
+          else true))
+  
+  axiom is_safe__def_axiom:
+    forall status : Airbag_system__status_system_type.status_system_type
+          [Airbag_system__is_safe.is_safe status].
+      ((Airbag_system__is_safe.is_safe status)
+         = (if ((Airbag_system__acceleration_range__rep.to_rep
+                   ((Airbag_system__status_system_type.__split_fields status).
+                      Airbag_system__status_system_type.rec__airbag_system__status_system_type__acceleration_measured))
+                  < ((- 35303) : int)) then
+              ((Airbag_system__status_airbag_system_type__rep.to_rep
+                  ((Airbag_system__status_system_type.__split_fields status).
+                     Airbag_system__status_system_type.rec__airbag_system__status_system_type__status_airbag_system))
+                 = (0 : int))
+            else
+              ((Airbag_system__status_airbag_system_type__rep.to_rep
+                  ((Airbag_system__status_system_type.__split_fields status).
+                     Airbag_system__status_system_type.rec__airbag_system__status_system_type__status_airbag_system))
+                 = (1 : int))))
+end
+
+module Ada___spark__text_io__standard_output
+  use _gnatprove_standard.Main
+  use int.Int
+  
+  val standard_output : Main.__private__ref
+end
+
+module Ada___spark__text_io__standard_input
+  use _gnatprove_standard.Main
+  use int.Int
+  
+  val standard_input : Main.__private__ref
+end
+
+module Airbag_system__init___axiom
+  use _gnatprove_standard.Main
+  use int.Int
+  use Airbag_system__status_system as Airbag_system__status_system
+  use Airbag_system__status_system_type as Airbag_system__status_system_type
+  use Airbag_system__status_system_type___axiom as Airbag_system__status_system_type___axiom
+  use Airbag_system__is_safe as Airbag_system__is_safe
+  use Ada___spark__text_io__standard_output as Ada___spark__text_io__standard_output
+  use Ada___spark__text_io__standard_input as Ada___spark__text_io__standard_input
+  
+  val init (__void_param: unit) : unit
+    requires { true }
+    writes { Airbag_system__status_system.status_system__split_fields, Ada___spark__text_io__standard_output.standard_output, Ada___spark__text_io__standard_input.standard_input }
+    ensures { (([@GP_Pretty_Ada:19989]
+                ((epsilon temp___result_223: bool.
+                    ((temp___result_223
+                        = (Airbag_system__is_safe.is_safe
+                             { Airbag_system__status_system_type.__split_fields =
+                                 (Airbag_system__status_system_type.__split_fields__content
+                                     Airbag_system__status_system.status_system__split_fields) })) /\
+                       ((Airbag_system__is_safe.is_safe__function_guard
+                           temp___result_223)
+                          { Airbag_system__status_system_type.__split_fields =
+                              (Airbag_system__status_system_type.__split_fields__content
+                                  Airbag_system__status_system.status_system__split_fields) })))
+                   = True)) /\
+                 (((((Airbag_system__status_system_type___axiom.dynamic_invariant
+                        { Airbag_system__status_system_type.__split_fields =
+                            (Airbag_system__status_system_type.__split_fields__content
+                                Airbag_system__status_system.status_system__split_fields) })
+                       True)
+                      True)
+                     True)
+                    True)) }
+end
+
+module Airbag_system__read_acceleration___axiom
+  use _gnatprove_standard.Main
+  use int.Int
+  use Airbag_system__status_system as Airbag_system__status_system
+  use Airbag_system__status_system_type as Airbag_system__status_system_type
+  use Airbag_system__status_system_type___axiom as Airbag_system__status_system_type___axiom
+  use Ada___spark__text_io__standard_output as Ada___spark__text_io__standard_output
+  use Ada___spark__text_io__standard_input as Ada___spark__text_io__standard_input
+  use Ada___spark__text_io__standard_output as Ada___spark__text_io__standard_output
+  use Ada___spark__text_io__standard_input as Ada___spark__text_io__standard_input
+  
+  val read_acceleration (__void_param: unit) : unit
+    reads { Airbag_system__status_system.status_system__split_fields,
+      Ada___spark__text_io__standard_output.standard_output,
+      Ada___spark__text_io__standard_input.standard_input }
+    requires { true }
+    writes { Airbag_system__status_system.status_system__split_fields, Ada___spark__text_io__standard_output.standard_output, Ada___spark__text_io__standard_input.standard_input }
+    ensures { ((((Airbag_system__status_system_type___axiom.dynamic_invariant
+                    { Airbag_system__status_system_type.__split_fields =
+                        (Airbag_system__status_system_type.__split_fields__content
+                            Airbag_system__status_system.status_system__split_fields) })
+                   True)
+                  True)
+                 True)
+                True }
+end
+
+module Airbag_system__monitor_airbag_system___axiom
+  use _gnatprove_standard.Main
+  use int.Int
+  use Airbag_system__status_system as Airbag_system__status_system
+  use Airbag_system__status_system_type as Airbag_system__status_system_type
+  use Airbag_system__status_system_type___axiom as Airbag_system__status_system_type___axiom
+  use Airbag_system__is_safe as Airbag_system__is_safe
+  
+  val monitor_airbag_system (__void_param: unit) : unit
+    reads { Airbag_system__status_system.status_system__split_fields }
+    requires { true }
+    writes { Airbag_system__status_system.status_system__split_fields }
+    ensures { (([@GP_Pretty_Ada:19953]
+                ((epsilon temp___result_224: bool.
+                    ((temp___result_224
+                        = (Airbag_system__is_safe.is_safe
+                             { Airbag_system__status_system_type.__split_fields =
+                                 (Airbag_system__status_system_type.__split_fields__content
+                                     Airbag_system__status_system.status_system__split_fields) })) /\
+                       ((Airbag_system__is_safe.is_safe__function_guard
+                           temp___result_224)
+                          { Airbag_system__status_system_type.__split_fields =
+                              (Airbag_system__status_system_type.__split_fields__content
+                                  Airbag_system__status_system.status_system__split_fields) })))
+                   = True)) /\
+                 (((((Airbag_system__status_system_type___axiom.dynamic_invariant
+                        { Airbag_system__status_system_type.__split_fields =
+                            (Airbag_system__status_system_type.__split_fields__content
+                                Airbag_system__status_system.status_system__split_fields) })
+                       True)
+                      True)
+                     True)
+                    True)) }
+end
+
+module Airbag_system__print_status___axiom
+  use _gnatprove_standard.Main
+  use int.Int
+  use Airbag_system__status_system as Airbag_system__status_system
+  use Ada___spark__text_io__standard_output as Ada___spark__text_io__standard_output
+  use Ada___spark__text_io__standard_output as Ada___spark__text_io__standard_output
+  
+  val print_status (__void_param: unit) : unit
+    reads { Airbag_system__status_system.status_system__split_fields,
+      Ada___spark__text_io__standard_output.standard_output }
+    requires { true }
+    writes { Ada___spark__text_io__standard_output.standard_output }
+    ensures { true }
+end
+
+module Main__L_1
+  use _gnatprove_standard.Main
+  use int.Int
+  
+  exception L_1
+end
+
+module Main__L_1___axiom
+  use _gnatprove_standard.Main
+  use int.Int
+end
+
+module Airbag_system__acceleration_range___axiom
+  use _gnatprove_standard.Main
+  use int.Int
+  use int.Int
+  use Airbag_system__acceleration_range as Airbag_system__acceleration_range
+  
+  predicate dynamic_invariant (temp___expr_201: int) (temp___is_init_197: bool) (temp___skip_constant_198: bool) (temp___do_toplevel_199: bool) (temp___do_typ_inv_200: bool) =
+    if ((temp___is_init_197 = True) \/
+          (Airbag_system__acceleration_range.first
+             <= Airbag_system__acceleration_range.last)) then
+      (((Airbag_system__acceleration_range.dynamic_property
+           Airbag_system__acceleration_range.first)
+          Airbag_system__acceleration_range.last)
+         temp___expr_201)
+    else true
+  
+  val dynamic_invariant (temp___expr_201: int) (temp___is_init_197: bool) (temp___skip_constant_198: bool) (temp___do_toplevel_199: bool) (temp___do_typ_inv_200: bool) : 
+    bool
+    ensures { result
+                <->
+                (((((dynamic_invariant (temp___expr_201 : int))
+                      (temp___is_init_197 : bool))
+                     (temp___skip_constant_198 : bool))
+                    (temp___do_toplevel_199 : bool))
+                   (temp___do_typ_inv_200 : bool)) }
+  
+  predicate default_initial_assumption (temp___expr_202: int) (temp___skip_top_level_203: bool) =
+    true
+  
+  val default_initial_assumption (temp___expr_202: int) (temp___skip_top_level_203: bool) : 
+    bool
+    ensures { result
+                <->
+                ((default_initial_assumption (temp___expr_202 : int))
+                   (temp___skip_top_level_203 : bool)) }
+end
+
+module Airbag_system__velocity_range___axiom
+  use _gnatprove_standard.Main
+  use int.Int
+  use int.Int
+  use Airbag_system__velocity_range as Airbag_system__velocity_range
+  
+  predicate dynamic_invariant (temp___expr_187: int) (temp___is_init_183: bool) (temp___skip_constant_184: bool) (temp___do_toplevel_185: bool) (temp___do_typ_inv_186: bool) =
+    if ((temp___is_init_183 = True) \/
+          (Airbag_system__velocity_range.first
+             <= Airbag_system__velocity_range.last)) then
+      (((Airbag_system__velocity_range.dynamic_property
+           Airbag_system__velocity_range.first)
+          Airbag_system__velocity_range.last)
+         temp___expr_187)
+    else true
+  
+  val dynamic_invariant (temp___expr_187: int) (temp___is_init_183: bool) (temp___skip_constant_184: bool) (temp___do_toplevel_185: bool) (temp___do_typ_inv_186: bool) : 
+    bool
+    ensures { result
+                <->
+                (((((dynamic_invariant (temp___expr_187 : int))
+                      (temp___is_init_183 : bool))
+                     (temp___skip_constant_184 : bool))
+                    (temp___do_toplevel_185 : bool))
+                   (temp___do_typ_inv_186 : bool)) }
+  
+  predicate default_initial_assumption (temp___expr_188: int) (temp___skip_top_level_189: bool) =
+    true
+  
+  val default_initial_assumption (temp___expr_188: int) (temp___skip_top_level_189: bool) : 
+    bool
+    ensures { result
+                <->
+                ((default_initial_assumption (temp___expr_188 : int))
+                   (temp___skip_top_level_189 : bool)) }
+end
+
+module Airbag_system__time_range___axiom
+  use _gnatprove_standard.Main
+  use int.Int
+  use int.Int
+  use Airbag_system__time_range as Airbag_system__time_range
+  
+  predicate dynamic_invariant (temp___expr_194: int) (temp___is_init_190: bool) (temp___skip_constant_191: bool) (temp___do_toplevel_192: bool) (temp___do_typ_inv_193: bool) =
+    if ((temp___is_init_190 = True) \/
+          (Airbag_system__time_range.first <= Airbag_system__time_range.last)) then
+      (((Airbag_system__time_range.dynamic_property
+           Airbag_system__time_range.first)
+          Airbag_system__time_range.last)
+         temp___expr_194)
+    else true
+  
+  val dynamic_invariant (temp___expr_194: int) (temp___is_init_190: bool) (temp___skip_constant_191: bool) (temp___do_toplevel_192: bool) (temp___do_typ_inv_193: bool) : 
+    bool
+    ensures { result
+                <->
+                (((((dynamic_invariant (temp___expr_194 : int))
+                      (temp___is_init_190 : bool))
+                     (temp___skip_constant_191 : bool))
+                    (temp___do_toplevel_192 : bool))
+                   (temp___do_typ_inv_193 : bool)) }
+  
+  predicate default_initial_assumption (temp___expr_195: int) (temp___skip_top_level_196: bool) =
+    true
+  
+  val default_initial_assumption (temp___expr_195: int) (temp___skip_top_level_196: bool) : 
+    bool
+    ensures { result
+                <->
+                ((default_initial_assumption (temp___expr_195 : int))
+                   (temp___skip_top_level_196 : bool)) }
+end
+
+module Airbag_system__status_airbag_system_type___axiom
+  use _gnatprove_standard.Main
+  use int.Int
+  use int.Int
+  use Airbag_system__status_airbag_system_type as Airbag_system__status_airbag_system_type
+  
+  predicate dynamic_invariant (temp___expr_208: int) (temp___is_init_204: bool) (temp___skip_constant_205: bool) (temp___do_toplevel_206: bool) (temp___do_typ_inv_207: bool) =
+    if ((temp___is_init_204 = True) \/
+          (Airbag_system__status_airbag_system_type.first
+             <= Airbag_system__status_airbag_system_type.last)) then
+      (((Airbag_system__status_airbag_system_type.dynamic_property
+           Airbag_system__status_airbag_system_type.first)
+          Airbag_system__status_airbag_system_type.last)
+         temp___expr_208)
+    else true
+  
+  val dynamic_invariant (temp___expr_208: int) (temp___is_init_204: bool) (temp___skip_constant_205: bool) (temp___do_toplevel_206: bool) (temp___do_typ_inv_207: bool) : 
+    bool
+    ensures { result
+                <->
+                (((((dynamic_invariant (temp___expr_208 : int))
+                      (temp___is_init_204 : bool))
+                     (temp___skip_constant_205 : bool))
+                    (temp___do_toplevel_206 : bool))
+                   (temp___do_typ_inv_207 : bool)) }
+  
+  predicate default_initial_assumption (temp___expr_209: int) (temp___skip_top_level_210: bool) =
+    true
+  
+  val default_initial_assumption (temp___expr_209: int) (temp___skip_top_level_210: bool) : 
+    bool
+    ensures { result
+                <->
+                ((default_initial_assumption (temp___expr_209 : int))
+                   (temp___skip_top_level_210 : bool)) }
+end
+
+module Airbag_system__status_system___axiom
+  use _gnatprove_standard.Main
+  use int.Int
+end
+
+module Main__subprogram_def
+  use _gnatprove_standard.Main
+  use int.Int
+  use Airbag_system__status_system as Airbag_system__status_system
+  use Airbag_system__status_system_type as Airbag_system__status_system_type
+  use Airbag_system__status_system_type___axiom as Airbag_system__status_system_type___axiom
+  use Airbag_system__is_safe as Airbag_system__is_safe
+  use Airbag_system__is_safe___axiom as Airbag_system__is_safe___axiom
+  use Airbag_system__init___axiom as Airbag_system__init___axiom
+  use Airbag_system__read_acceleration___axiom as Airbag_system__read_acceleration___axiom
+  use Airbag_system__monitor_airbag_system___axiom as Airbag_system__monitor_airbag_system___axiom
+  use Airbag_system__print_status___axiom as Airbag_system__print_status___axiom
+  use Main__L_1 as Main__L_1
+  use Ada___spark__text_io__standard_output as Ada___spark__text_io__standard_output
+  use Ada___spark__text_io__standard_input as Ada___spark__text_io__standard_input
+  use Main__L_1___axiom as Main__L_1___axiom
+  use Airbag_system__acceleration_range___axiom as Airbag_system__acceleration_range___axiom
+  use Airbag_system__velocity_range___axiom as Airbag_system__velocity_range___axiom
+  use Airbag_system__time_range___axiom as Airbag_system__time_range___axiom
+  use Airbag_system__status_airbag_system_type___axiom as Airbag_system__status_airbag_system_type___axiom
+  use Airbag_system__status_system_type___axiom as Airbag_system__status_system_type___axiom
+  use Airbag_system__status_system___axiom as Airbag_system__status_system___axiom
+  use Airbag_system__read_acceleration___axiom as Airbag_system__read_acceleration___axiom
+  use Airbag_system__print_status___axiom as Airbag_system__print_status___axiom
+  use Airbag_system__is_safe___axiom as Airbag_system__is_safe___axiom
+  use Airbag_system__monitor_airbag_system___axiom as Airbag_system__monitor_airbag_system___axiom
+  use Airbag_system__init___axiom as Airbag_system__init___axiom
+  
+  let def (__void_param : unit)
+    requires { [#"main.ads" 3 0 0] true }
+  = [@vc:divergent]
+    (([@GNAT-comment:Assume dynamic invariants of inputs of the subprogram main.ads:3]
+      ());
+     ([#"main.ads" 3 0 0]
+      assume {
+        [#"main.ads" 3 0 0]
+        (((((Airbag_system__status_system_type___axiom.dynamic_invariant
+               { Airbag_system__status_system_type.__split_fields =
+                   (Airbag_system__status_system_type.__split_fields__content
+                       Airbag_system__status_system.status_system__split_fields) })
+              False)
+             False)
+            True)
+           True) });
+     ([@GNAT-comment:Assume moved pointers in outputs of the subprogram main.ads:3]
+      ());
+     ([@GNAT-comment:Check for RTE in the Pre of the subprogram main.ads:3]
+      ());
+     ([#"main.ads" 3 0 0] ());
+     ([@GNAT-comment:Assume Pre of the subprogram main.ads:3] ());
+     ([#"main.ads" 3 0 0]
+      (try
+         ([#"main.adb" 8 0 0] ());
+         ([@GP_Sloc:main.adb:7:4] [#"main.adb" 7 0 0] ());
+         ([@GP_Sloc:main.adb:7:4]
+          [#"main.adb" 7 0 0]
+          (([#"main.adb" 7 0 0]
+            (val _f : unit
+               writes { Ada___spark__text_io__standard_output.standard_output, Ada___spark__text_io__standard_input.standard_input } in
+             _f));
+           (Airbag_system__init___axiom.init ())));
+         ([@GP_Sloc:main.adb:8:4]
+          [#"main.adb" 8 0 0]
+          (([@GNAT-comment:Translation of an Ada loop from main.adb:8] ());
+           (if True then
+              ([#"main.adb" 8 0 0]
+               (try
+                  let temp___loop_entry_225 =
+                    { Airbag_system__status_system_type.__split_fields =
+                        (Airbag_system__status_system_type.__split_fields__content
+                            Airbag_system__status_system.status_system__split_fields) } in
+                  ([@GNAT-comment:While loop translating the Ada loop from main.adb:8]
+                   ());
+                  ([#"'@Loop 835@'main.adb" 9 0 0]
+                   [#"'@Loop 835@'main.adb" 9 0 0]
+                   ((([@GP_Sloc:main.adb:9:30] [#"main.adb" 9 0 0] ());
+                     ([@GNAT-comment:Check for absence of RTE in the loop invariant and variant]
+                      ());
+                     (let temp___inv_226 =
+                        Airbag_system__is_safe___axiom.is_safe
+                          { Airbag_system__status_system_type.__split_fields =
+                              (Airbag_system__status_system_type.__split_fields__content
+                                  Airbag_system__status_system.status_system__split_fields) } in
+                      ()));
+                    while True do
+                      invariant LoopInvariant {
+                        [#"main.adb" 9 0 0]
+                        [@GP_Reason:VC_LOOP_INVARIANT]
+                        [@GP_Sloc:main.adb:9:30]
+                        [@comment:      pragma Loop_Invariant (Is_Safe (Status_System));                              ^ main.adb:9:30:VC_LOOP_INVARIANT]
+                        [@vc:annotation]
+                        [@GP_Id:0]
+                        [@GP_Shape:L_1_loop__pragargs__call_is_safe]
+                        [@GP_Sloc:main.adb:9:30]
+                        [@GP_Pretty_Ada:840]
+                        ((epsilon temp___result_227: bool.
+                            ((temp___result_227
+                                = (Airbag_system__is_safe.is_safe
+                                     { Airbag_system__status_system_type.__split_fields =
+                                         (Airbag_system__status_system_type.__split_fields__content
+                                             Airbag_system__status_system.status_system__split_fields) })) /\
+                               ((Airbag_system__is_safe.is_safe__function_guard
+                                   temp___result_227)
+                                  { Airbag_system__status_system_type.__split_fields =
+                                      (Airbag_system__status_system_type.__split_fields__content
+                                          Airbag_system__status_system.status_system__split_fields) })))
+                           = True) }
+                      ([@GNAT-comment:gnat_ast_to_ptree: code after the loop invariant]
+                       (([@GNAT-comment:Assume implicit invariants from the loop main.adb:8]
+                         ());
+                        assume {
+                          ((true /\
+                              (((((Airbag_system__status_system_type___axiom.dynamic_invariant
+                                     { Airbag_system__status_system_type.__split_fields =
+                                         (Airbag_system__status_system_type.__split_fields__content
+                                             Airbag_system__status_system.status_system__split_fields) })
+                                    False)
+                                   True)
+                                  True)
+                                 True)) /\
+                             (true /\ true)) };
+                        ([@GNAT-comment:Continuation of loop after loop invariant and variant]
+                         ());
+                        ([@GP_Sloc:main.adb:10:7] [#"main.adb" 10 0 0] ());
+                        ([@GP_Sloc:main.adb:10:7]
+                         [#"main.adb" 10 0 0]
+                         (([#"main.adb" 10 0 0] (val _f : unit in
+                                                 _f));
+                          (Airbag_system__read_acceleration___axiom.read_acceleration
+                             ())));
+                        ([@GP_Sloc:main.adb:11:7] [#"main.adb" 11 0 0] ());
+                        ([@GP_Sloc:main.adb:11:7]
+                         [#"main.adb" 11 0 0]
+                         (([#"main.adb" 11 0 0] (val _f : unit in
+                                                 _f));
+                          (Airbag_system__monitor_airbag_system___axiom.monitor_airbag_system
+                             ())));
+                        ([@GP_Sloc:main.adb:12:7] [#"main.adb" 12 0 0] ());
+                        ([@GP_Sloc:main.adb:12:7]
+                         [#"main.adb" 12 0 0]
+                         (([#"main.adb" 12 0 0] (val _f : unit in
+                                                 _f));
+                          (Airbag_system__print_status___axiom.print_status
+                             ())));
+                        ([@GNAT-comment:Check for the exit condition and loop statements appearing before the loop invariant of loop main.adb:8]
+                         ());
+                        (if False then (raise Main__L_1.L_1)
+                         else ())));
+                      ([@GNAT-comment:gnat_ast_to_ptree: code before the loop invariant]
+                       (([@GP_Sloc:main.adb:9:30] [#"main.adb" 9 0 0] ());
+                        ([@GNAT-comment:Check for absence of RTE in the loop invariant and variant]
+                         ());
+                        (let temp___inv_226 =
+                           Airbag_system__is_safe___axiom.is_safe
+                             { Airbag_system__status_system_type.__split_fields =
+                                 (Airbag_system__status_system_type.__split_fields__content
+                                     Airbag_system__status_system.status_system__split_fields) } in
+                         ())));
+                      ([@GNAT-comment:gnat_ast_to_ptree: code checking the variants]
+                       ())
+                    done))
+                with Main__L_1.L_1 -> ()
+                end))
+            else ())));
+         (raise Return__exc)
+       with Return__exc -> ()
+       end)))
+end

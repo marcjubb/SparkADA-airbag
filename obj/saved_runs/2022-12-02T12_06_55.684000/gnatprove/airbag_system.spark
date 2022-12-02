@@ -1,0 +1,1512 @@
+{
+  "spark": [
+    {
+      "name": "Airbag_System",
+      "sloc": [
+        {
+          "file": "airbag_system.ads",
+          "line": 5
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Airbag_System.Read_Acceleration",
+      "sloc": [
+        {
+          "file": "airbag_system.ads",
+          "line": 31
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Airbag_System.Status_Airbag_System_To_String",
+      "sloc": [
+        {
+          "file": "airbag_system.ads",
+          "line": 37
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Airbag_System.Print_Status",
+      "sloc": [
+        {
+          "file": "airbag_system.ads",
+          "line": 40
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Airbag_System.Is_Safe",
+      "sloc": [
+        {
+          "file": "airbag_system.ads",
+          "line": 44
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Airbag_System.Monitor_Airbag_System",
+      "sloc": [
+        {
+          "file": "airbag_system.ads",
+          "line": 49
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Airbag_System.Init",
+      "sloc": [
+        {
+          "file": "airbag_system.ads",
+          "line": 54
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Airbag_System.getGForce",
+      "sloc": [
+        {
+          "file": "airbag_system.ads",
+          "line": 59
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "airbag_system.ads",
+      "line": 55,
+      "col": 63,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.Init",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 54
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "airbag_system.ads",
+      "line": 55,
+      "col": 47,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.Init",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 54
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "airbag_system.ads",
+      "line": 55,
+      "col": 30,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.Init",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 54
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "airbag_system.ads",
+      "line": 55,
+      "col": 7,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.Init",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 54
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "airbag_system.ads",
+      "line": 56,
+      "col": 7,
+      "rule": "DEPENDS_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.Init",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 54
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "airbag_system.adb",
+      "line": 10,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.Read_Acceleration",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 31
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "airbag_system.adb",
+      "line": 10,
+      "col": 11,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.Read_Acceleration",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 31
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "airbag_system.adb",
+      "line": 10,
+      "col": 15,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.Read_Acceleration",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 31
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "airbag_system.ads",
+      "line": 32,
+      "col": 7,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.Read_Acceleration",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 31
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "airbag_system.ads",
+      "line": 33,
+      "col": 7,
+      "rule": "DEPENDS_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.Read_Acceleration",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 31
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "airbag_system.ads",
+      "line": 50,
+      "col": 7,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.Monitor_Airbag_System",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 49
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "airbag_system.ads",
+      "line": 51,
+      "col": 7,
+      "rule": "DEPENDS_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.Monitor_Airbag_System",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 49
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "airbag_system.ads",
+      "line": 41,
+      "col": 7,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.Print_Status",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 40
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "airbag_system.ads",
+      "line": 42,
+      "col": 7,
+      "rule": "DEPENDS_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.Print_Status",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 40
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    }
+  ],
+  "session_map": {
+    " 1": "C:\\GNAT\\2.0-main\\obj\\gnatprove\\airbag_system__monitor_airbag_system",
+    " 2": "C:\\GNAT\\2.0-main\\obj\\gnatprove\\airbag_system__init",
+    " 3": "C:\\GNAT\\2.0-main\\obj\\gnatprove\\airbag_system__getgforce",
+    " 4": "C:\\GNAT\\2.0-main\\obj\\gnatprove\\airbag_system__read_acceleration"
+  },
+  "proof": [
+    {
+      "file": "airbag_system.ads",
+      "line": 52,
+      "col": 18,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.Monitor_Airbag_System",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 49
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "airbag_system.ads",
+      "check_line": 52,
+      "check_col": 18,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "airbag_system.ads",
+      "line": 57,
+      "col": 18,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.Init",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 54
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "airbag_system.ads",
+      "check_line": 57,
+      "check_col": 18,
+      "session_dir": 2,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "airbag_system.ads",
+      "line": 60,
+      "col": 11,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Airbag_System.getGForce",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 59
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown\n(unknown)",
+              "steps": 1,
+              "time": 1.40000000000000E-01
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "airbag_system.ads",
+      "check_line": 60,
+      "check_col": 11,
+      "msg_id": 0,
+      "session_dir": 3,
+      "how_proved": "prover"
+    },
+    {
+      "file": "airbag_system.ads",
+      "line": 60,
+      "col": 17,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.getGForce",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 59
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "airbag_system.ads",
+      "check_line": 60,
+      "check_col": 17,
+      "session_dir": 3,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "airbag_system.ads",
+      "line": 60,
+      "col": 17,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.getGForce",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 59
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 1.60000000000000E-01
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "airbag_system.ads",
+      "check_line": 60,
+      "check_col": 17,
+      "session_dir": 3,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.59999996423721E-01
+        }
+      }
+    },
+    {
+      "file": "airbag_system.adb",
+      "line": 21,
+      "col": 65,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.Read_Acceleration",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 31
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 2.00000000000000E-01
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "airbag_system.adb",
+      "check_line": 21,
+      "check_col": 65,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.00000002980232E-01
+        }
+      }
+    },
+    {
+      "file": "airbag_system.adb",
+      "line": 30,
+      "col": 63,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.Read_Acceleration",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 31
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 1.90000000000000E-01
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "airbag_system.adb",
+      "check_line": 30,
+      "check_col": 63,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.89999997615814E-01
+        }
+      }
+    },
+    {
+      "file": "airbag_system.adb",
+      "line": 39,
+      "col": 60,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Airbag_System.Read_Acceleration",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 31
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 2.20000000000000E-01
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "airbag_system.adb",
+      "check_line": 39,
+      "check_col": 60,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.19999998807907E-01
+        }
+      }
+    },
+    {
+      "file": "airbag_system.adb",
+      "line": 40,
+      "col": 65,
+      "rule": "VC_PRECONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "Airbag_System.Read_Acceleration",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 31
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown\n(unknown)",
+              "steps": 1,
+              "time": 2.80000000000000E-01
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 1.90000000000000E-01
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown\n(unknown)",
+              "steps": 1,
+              "time": 3.40000000000000E-01
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 1.90000000000000E-01
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 1.60000000000000E-01
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "airbag_system.adb",
+      "check_line": 40,
+      "check_col": 65,
+      "msg_id": 1,
+      "session_dir": 4,
+      "how_proved": "prover"
+    },
+    {
+      "file": "airbag_system.adb",
+      "line": 40,
+      "col": 65,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Airbag_System.Read_Acceleration",
+        "sloc": [
+          {
+            "file": "airbag_system.ads",
+            "line": 31
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown\n(unknown)",
+              "steps": 1,
+              "time": 3.60000000000000E-01
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "airbag_system.adb",
+      "check_line": 40,
+      "check_col": 65,
+      "msg_id": 2,
+      "session_dir": 4,
+      "how_proved": "prover"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Put",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 62
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Put",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 117
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Put_Line",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 86
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Status_Airbag_System_To_String",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 37
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Put",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 62
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Put",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 117
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Put_Line",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 86
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Airbag_System.Status_Airbag_System_To_String",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 37
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Airbag_System.Print_Status",
+          "sloc": [
+            {
+              "file": "airbag_system.ads",
+              "line": 40
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Airbag_System",
+          "sloc": [
+            {
+              "file": "airbag_system.ads",
+              "line": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Init_Standard_Input",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 26
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Init_Standard_Output",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 33
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Is_Safe",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 44
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Init_Standard_Input",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 26
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Init_Standard_Output",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 33
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Airbag_System.Is_Safe",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 44
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Airbag_System.Init",
+          "sloc": [
+            {
+              "file": "airbag_system.ads",
+              "line": 54
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Get",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 109
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Put",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 62
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Put",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 117
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Put_Line",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 86
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.getGForce",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 59
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Airbag_System.Read_Acceleration",
+          "sloc": [
+            {
+              "file": "airbag_system.ads",
+              "line": 31
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Init_Standard_Input",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 26
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Init_Standard_Output",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 33
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Is_Safe",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 44
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Airbag_System.Init",
+          "sloc": [
+            {
+              "file": "airbag_system.ads",
+              "line": 54
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Init_Standard_Input",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 26
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Init_Standard_Output",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 33
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Is_Safe",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 44
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Init_Standard_Input",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 26
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Init_Standard_Output",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 33
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Airbag_System.Is_Safe",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 44
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Airbag_System.Init",
+          "sloc": [
+            {
+              "file": "airbag_system.ads",
+              "line": 54
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Airbag_System.Status_Airbag_System_To_String",
+          "sloc": [
+            {
+              "file": "airbag_system.ads",
+              "line": 37
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Airbag_System.Status_Airbag_System_To_String",
+          "sloc": [
+            {
+              "file": "airbag_system.ads",
+              "line": 37
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Is_Safe",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 44
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Airbag_System.Is_Safe",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 44
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Airbag_System.Monitor_Airbag_System",
+          "sloc": [
+            {
+              "file": "airbag_system.ads",
+              "line": 49
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Is_Safe",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 44
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Airbag_System.Monitor_Airbag_System",
+          "sloc": [
+            {
+              "file": "airbag_system.ads",
+              "line": 49
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Is_Safe",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 44
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Airbag_System.Is_Safe",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 44
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Airbag_System.Monitor_Airbag_System",
+          "sloc": [
+            {
+              "file": "airbag_system.ads",
+              "line": 49
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Airbag_System.getGForce",
+          "sloc": [
+            {
+              "file": "airbag_system.ads",
+              "line": 59
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Airbag_System.Is_Safe",
+          "sloc": [
+            {
+              "file": "airbag_system.ads",
+              "line": 44
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Airbag_System.Is_Safe",
+          "sloc": [
+            {
+              "file": "airbag_system.ads",
+              "line": 44
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Put",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 62
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Put",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 117
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "AS_Io_Wrapper.AS_Put_Line",
+            "sloc": [
+              {
+                "file": "as_io_wrapper.ads",
+                "line": 86
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Status_Airbag_System_To_String",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 37
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Airbag_System.Print_Status",
+          "sloc": [
+            {
+              "file": "airbag_system.ads",
+              "line": 40
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "gnatwhy3.transformations.inline_trivial": 9.37500000000000E-02,
+    "codepeer results": 1.82610005140305E-03,
+    "init_why_sections": 1.87889998778701E-03,
+    "gnatwhy3.transformations.detect_polymorphism": 1.56250000000000E-02,
+    "gnatwhy3.transformations.eliminate_literal": 1.56250000000000E-02,
+    "gnatwhy3.run_vcs": 5.62500000000000E-01,
+    "globals (advanced)": 5.24833984673023E-02,
+    "gnatwhy3.transformations.eliminate_algebraic_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_definition_if_poly": 1.56250000000000E-02,
+    "flow analysis": 3.50588001310825E-02,
+    "gnatwhy3.transformations.simplify_formula": 1.56250000000000E-02,
+    "marking": 3.88299988117069E-04,
+    "translation of standard": 9.34670027345419E-03,
+    "properties (advanced)": 9.98999967123382E-05,
+    "gnatwhy3.register_vcs": 1.56250000000000E-02,
+    "gnatwhy3.transformations.eliminate_epsilon": 0.00000000000000E+00,
+    "globals (basic)": 3.92287001013756E-02,
+    "gnatwhy3.schedule_vcs": 1.56250000000000E-02,
+    "gnatwhy3.transformations.prepare_for_counterexmp": 0.00000000000000E+00,
+    "gnatwhy3.save_session": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_inductive": 1.56250000000000E-02,
+    "gnatwhy3.transformations.encoding_smt_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_unused_hypo": 2.18750000000000E-01,
+    "gnatwhy3.transformations.eliminate_builtin": 1.56250000000000E-02,
+    "gnatwhy3.transformations.discriminate_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.init": 2.28125000000000E+00
+  }
+}

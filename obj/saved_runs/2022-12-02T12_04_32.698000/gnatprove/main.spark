@@ -1,0 +1,356 @@
+{
+  "spark": [
+    {
+      "name": "Main",
+      "sloc": [
+        {
+          "file": "main.ads",
+          "line": 3
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "session_map": {
+    " 1": "C:\\GNAT\\2.0-main\\obj\\gnatprove\\main"
+  },
+  "proof": [
+    {
+      "file": "main.adb",
+      "line": 9,
+      "col": 30,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "Main",
+        "sloc": [
+          {
+            "file": "main.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "main.adb",
+      "check_line": 9,
+      "check_col": 30,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "main.adb",
+      "line": 9,
+      "col": 30,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "entity": {
+        "name": "Main",
+        "sloc": [
+          {
+            "file": "main.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "main.adb",
+      "check_line": 9,
+      "check_col": 30,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Init",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 54
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Is_Safe",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 44
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Monitor_Airbag_System",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 49
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Print_Status",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 40
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Read_Acceleration",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 31
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Main",
+          "sloc": [
+            {
+              "file": "main.ads",
+              "line": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Airbag_System.Init",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 54
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Airbag_System.Monitor_Airbag_System",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 49
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Init",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 54
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Is_Safe",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 44
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Monitor_Airbag_System",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 49
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Print_Status",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 40
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Read_Acceleration",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 31
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Airbag_System.Init",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 54
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Airbag_System.Is_Safe",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 44
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Airbag_System.Monitor_Airbag_System",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 49
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Airbag_System.Print_Status",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 40
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Airbag_System.Read_Acceleration",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 31
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Main",
+          "sloc": [
+            {
+              "file": "main.ads",
+              "line": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "codepeer results": 1.87199999345466E-04,
+    "init_why_sections": 9.23899991903454E-04,
+    "gnatwhy3.run_vcs": 0.00000000000000E+00,
+    "globals (advanced)": 6.05293996632099E-02,
+    "flow analysis": 3.23219993151724E-03,
+    "marking": 2.19299996388145E-04,
+    "translation of standard": 5.46630006283522E-03,
+    "properties (advanced)": 2.13499995879829E-04,
+    "gnatwhy3.register_vcs": 0.00000000000000E+00,
+    "globals (basic)": 4.66957017779350E-02,
+    "gnatwhy3.schedule_vcs": 0.00000000000000E+00,
+    "gnatwhy3.save_session": 0.00000000000000E+00,
+    "gnatwhy3.init": 3.75000000000000E-01
+  }
+}

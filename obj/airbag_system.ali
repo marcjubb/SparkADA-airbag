@@ -1,0 +1,126 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_SECONDARY_STACK
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U airbag_system%b	airbag_system.adb	c3f9ba60 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W as_io_wrapper%s	as_io_wrapper.adb	as_io_wrapper.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U airbag_system%s	airbag_system.ads	634b652d EE NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W spark%s		spark.ads		spark.ali
+W spark.text_io%s	spark-text_io.adb	spark-text_io.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D airbag_system.ads	20221202121112 0f282443 airbag_system%s
+D airbag_system.adb	20221202120758 85b11df3 airbag_system%b
+D as_io_wrapper.ads	20221202004340 496083d0 as_io_wrapper%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D spark.ads		20221202004340 16439e1d spark%s
+D spark-text_io.ads	20221202004340 6c63416e spark.text_io%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s s [status_system_typeIP airbag_system 21 9 none]
+G c Z s b [read_acceleration airbag_system 31 14 none]
+G c Z s b [status_airbag_system_to_string airbag_system 37 13 none]
+G c Z s b [print_status airbag_system 40 14 none]
+G c Z s s [is_safe airbag_system 44 13 none]
+G c Z s b [monitor_airbag_system airbag_system 49 14 none]
+G c Z s b [init airbag_system 54 14 none]
+G c Z s s [getgforce airbag_system 59 13 none]
+G r c none [read_acceleration airbag_system 31 14 none] [as_put_line as_io_wrapper 86 14 none]
+G r c none [read_acceleration airbag_system 31 14 none] [as_get as_io_wrapper 109 14 none]
+G r c none [read_acceleration airbag_system 31 14 none] [as_put as_io_wrapper 62 14 none]
+G r c none [read_acceleration airbag_system 31 14 none] [as_put as_io_wrapper 117 14 none]
+G r c none [print_status airbag_system 40 14 none] [as_put_line as_io_wrapper 86 14 none]
+G r c none [print_status airbag_system 40 14 none] [as_put as_io_wrapper 62 14 none]
+G r c none [print_status airbag_system 40 14 none] [as_put as_io_wrapper 117 14 none]
+G r c none [init airbag_system 54 14 none] [as_init_standard_input as_io_wrapper 26 14 none]
+G r c none [init airbag_system 54 14 none] [as_init_standard_output as_io_wrapper 33 13 none]
+X 11 airbag_system.ads
+5K9*Airbag_System 63l5 63e18 12|6b14 89l5 89t18
+7i4*Maximum_Velocity_Possible{integer} 16r36 12|18r25 27r25
+8i4*Maximum_Acceleration_Possible{integer} 13r36
+9i4*Maximum_Time_Possible{integer} 17r46 12|34r38 36r25
+10i4*Critical_Acceleration{integer} 45r51 12|68r57
+12I9*Acceleration_Range<integer> 25r35 12|40r46
+15I9*Velocity_Range<integer> 22r35 23r35 12|21r50 30r48
+17I9*Time_Range<integer> 24r35 12|39r49
+19E9*Status_Airbag_System_Type 19e64 26r35 38r30 12|45r69
+19n39*Activated{19E9} 46r39 12|47r37 69r50
+19n50*Not_Activated{19E9} 47r42 12|70r50 84r49
+21R9*Status_System_Type 27e14 29r20 44r31
+22i7*Initial_Velocity_Measured{15I9} 12|21m21 80m25
+23i7*Final_Velocity_Measured{15I9} 12|30m21 81m25
+24i7*Time_Difference_Measured{17I9} 12|39m21 82m27
+25i7*Acceleration_Measured{12I9} 45r26 12|40m21 59r36 68r32 83m25
+26e7*Status_Airbag_System{19E9} 46r16 47r19 12|62r64 69m26 70m26 84m25
+29r4*Status_System{21R9} 32r63 35r8 35r27 41r55 42r56 50r29 51r19 51r36 52r27
+. 55r63 56r53 57r27 12|21m7 30m7 39m7 40m7 59r22 62r50 68r18 69m12 70m12
+. 79m7
+31U14*Read_Acceleration 12|9b14 41l8 41t25
+37V13*Status_Airbag_System_To_String{string} 38>7 12|45b13 51l11 51t41 62s19
+38e7 Status_Airbag_System{19E9} 12|45b45 47r14
+40U14*Print_Status 12|55b14 63l8 63t20
+44V13*Is_Safe{boolean} 44>22 52s18 57s18
+44r22 Status{21R9} 45r19 46r9 47r12
+49U14*Monitor_Airbag_System 12|66b14 72l8 72t29
+54U14*Init 12|75b14 85l8 85t12
+59V13*getGForce{integer} 59>24 59>28 59>32 12|40s65
+59i24 V0{integer} 60r13 61r22 61r39
+59i28 V1{integer} 60r8 61r55 61r72
+59i32 T{integer} 60r20 61r12
+X 12 airbag_system.adb
+10i7 V0{integer} 15m17 16r21 16r39 21r65 40r75
+10i11 V1{integer} 24m17 25r21 25r39 30r63 40r78
+10i15 T{integer} 33m17 34r21 34r33 39r60 40r81
+X 13 as_io_wrapper.ads
+22K9*AS_Io_Wrapper 12|3w6 3r26 13|127e18
+26U14*AS_Init_Standard_Input 12|77s7
+33U13*AS_Init_Standard_Output 12|78s7
+62U14*AS_Put 12|17s10 26s10 35s10 58s7 61s7
+86U14*AS_Put_Line 12|13s7 19s10 22s7 28s10 31s7 37s10 57s7 60s7 62s7
+109U14*AS_Get 12|15s10 24s10 33s10
+117U14*AS_Put 12|18s10 27s10 36s10 59s7
+X 16 spark.ads
+29K9*SPARK 11|3r6 3r25 16|66e10
+X 17 spark-text_io.ads
+35K15*Text_IO 11|3w12 3r31 17|755e18
+44R9*File_Type<16|53R9>
+88r4*Standard_Input{44R9} 11|32r47 33r56 34r8 34r26 35r42 55r47 56r37
+89r4*Standard_Output{44R9} 11|32r30 33r19 33r39 41r29 42r19 42r39 55r30 56r20
+

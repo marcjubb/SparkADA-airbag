@@ -1,0 +1,4 @@
+airbag_system.adb:40:65: medium: range check might fail [reason for check: value must be convertible to the target type of the conversion] [possible fix: loop at line 32 should mention T in a loop invariant][#3]
+airbag_system.ads:60:11: medium: overflow check might fail [reason for check: result of subtraction must fit in a 32-bits machine integer] [possible fix: subprogram at line 59 should mention V0 and V1 in a precondition][#0]
+airbag_system.ads:60:17: medium: divide by zero might fail [possible fix: subprogram at line 59 should mention T and V0 and V1 in a precondition][#1]
+airbag_system.ads:60:17: medium: overflow check might fail [reason for check: result of division must fit in a 32-bits machine integer] [possible fix: subprogram at line 59 should mention T and V0 and V1 in a precondition][#2]

@@ -1,0 +1,101 @@
+{
+  "spark": [
+    {
+      "name": "Main",
+      "sloc": [
+        {
+          "file": "main.ads",
+          "line": 3
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Init",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 54
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Is_Safe",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 44
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Monitor_Airbag_System",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 49
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Print_Status",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 40
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Airbag_System.Read_Acceleration",
+            "sloc": [
+              {
+                "file": "airbag_system.ads",
+                "line": 31
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Main",
+          "sloc": [
+            {
+              "file": "main.ads",
+              "line": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "globals (advanced)": 4.49739992618561E-02,
+    "flow analysis": 3.13870003446937E-03,
+    "marking": 2.22999995457940E-04,
+    "properties (advanced)": 2.06500000786036E-04,
+    "globals (basic)": 3.40001992881298E-02
+  }
+}

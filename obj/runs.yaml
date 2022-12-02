@@ -1,0 +1,187 @@
+'2022-12-02T12:00:22.817000':
+  category: GNATprove
+  files:
+  - C:\GNAT\2.0-main\obj\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    Summary logged in C:\GNAT\2.0-main\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-12-02T12:00:22.817000'
+'2022-12-02T12:00:41.478000':
+  category: GNATprove
+  files:
+  - C:\GNAT\2.0-main\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    airbag_system.adb:40:65: medium: range check might fail [reason for check: value
+    must be convertible to the target type of the conversion] [possible fix: loop
+    at line 32 should mention T in a loop invariant][#3]
+
+    airbag_system.ads:60:11: medium: overflow check might fail [reason for check:
+    result of subtraction must fit in a 32-bits machine integer] [possible fix: subprogram
+    at line 59 should mention V0 and V1 in a precondition][#0]
+
+    airbag_system.ads:60:17: medium: divide by zero might fail [possible fix: subprogram
+    at line 59 should mention T and V0 and V1 in a precondition][#1]
+
+    airbag_system.ads:60:17: medium: overflow check might fail [reason for check:
+    result of division must fit in a 32-bits machine integer] [possible fix: subprogram
+    at line 59 should mention T and V0 and V1 in a precondition][#2]
+
+    Summary logged in C:\GNAT\2.0-main\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-12-02T12:00:41.478000'
+'2022-12-02T12:04:32.698000':
+  category: GNATprove
+  files:
+  - C:\GNAT\2.0-main\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    airbag_system.adb:40:65: medium: range check might fail [reason for check: value
+    must be convertible to the target type of the conversion] [possible fix: loop
+    at line 32 should mention T in a loop invariant][#1]
+
+    airbag_system.ads:60:11: medium: overflow check might fail [reason for check:
+    result of subtraction must fit in a 32-bits machine integer] [possible fix: precondition
+    of subprogram at line 59 should mention V0 and V1][#0]
+
+    Summary logged in C:\GNAT\2.0-main\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-12-02T12:04:32.698000'
+'2022-12-02T12:05:43.127000':
+  category: GNATprove
+  files:
+  - C:\GNAT\2.0-main\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    airbag_system.adb:40:65: medium: range check might fail [reason for check: value
+    must be convertible to the target type of the conversion] [possible fix: loop
+    at line 32 should mention T in a loop invariant][#1]
+
+    airbag_system.ads:60:11: medium: overflow check might fail [reason for check:
+    result of subtraction must fit in a 32-bits machine integer] [possible fix: precondition
+    of subprogram at line 59 should mention V0 and V1][#0]
+
+    Summary logged in C:\GNAT\2.0-main\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-12-02T12:05:43.127000'
+'2022-12-02T12:06:55.684000':
+  category: GNATprove
+  files:
+  - C:\GNAT\2.0-main\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    airbag_system.adb:40:65: medium: precondition might fail, cannot prove V0 < 150000
+    [possible fix: loop at line 32 should mention T in a loop invariant][#1]
+
+    airbag_system.adb:40:65: medium: range check might fail [reason for check: value
+    must be convertible to the target type of the conversion] [possible fix: loop
+    at line 32 should mention T in a loop invariant][#2]
+
+    airbag_system.ads:60:11: medium: overflow check might fail [reason for check:
+    result of subtraction must fit in a 32-bits machine integer] [possible fix: precondition
+    of subprogram at line 59 should mention V1][#0]
+
+    Summary logged in C:\GNAT\2.0-main\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-12-02T12:06:55.684000'
+'2022-12-02T12:07:38.093000':
+  category: GNATprove
+  files:
+  - C:\GNAT\2.0-main\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    airbag_system.adb:40:65: medium: precondition might fail, cannot prove V0 < 150000
+    [possible fix: loop at line 32 should mention T in a loop invariant][#1]
+
+    airbag_system.adb:40:65: medium: range check might fail [reason for check: value
+    must be convertible to the target type of the conversion] [possible fix: loop
+    at line 32 should mention T in a loop invariant][#2]
+
+    airbag_system.ads:60:11: medium: overflow check might fail [reason for check:
+    result of subtraction must fit in a 32-bits machine integer] [possible fix: precondition
+    of subprogram at line 59 should mention V1][#0]
+
+    Summary logged in C:\GNAT\2.0-main\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-12-02T12:07:38.093000'
+'2022-12-02T12:08:12.334000':
+  category: GNATprove
+  files:
+  - C:\GNAT\2.0-main\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    airbag_system.adb:40:65: medium: range check might fail [reason for check: value
+    must be convertible to the target type of the conversion] [possible fix: loop
+    at line 32 should mention T in a loop invariant][#1]
+
+    airbag_system.ads:60:11: medium: overflow check might fail [reason for check:
+    result of subtraction must fit in a 32-bits machine integer] [possible fix: precondition
+    of subprogram at line 59 should mention V1][#0]
+
+    Summary logged in C:\GNAT\2.0-main\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-12-02T12:08:12.334000'
+'2022-12-02T12:11:34.110000':
+  category: GNATprove
+  files:
+  - C:\GNAT\2.0-main\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\GNAT\2.0-main\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-12-02T12:11:34.110000'
+'2022-12-02T12:11:44.967000':
+  category: GNATprove
+  files:
+  - C:\GNAT\2.0-main\obj\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    Summary logged in C:\GNAT\2.0-main\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2022-12-02T12:11:44.967000'

@@ -1,0 +1,35 @@
+{
+  "spark": [
+    {
+      "name": "SPARK",
+      "sloc": [
+        {
+          "file": "spark.ads",
+          "line": 29
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "SPARK.Text_IO_File_Type",
+      "sloc": [
+        {
+          "file": "spark.ads",
+          "line": 53
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "globals (advanced)": 3.29918004572392E-02,
+    "flow analysis": 1.18939997628331E-03,
+    "marking": 2.53200007136911E-04,
+    "properties (advanced)": 5.27000011061318E-05,
+    "globals (basic)": 7.16686025261879E-02
+  }
+}

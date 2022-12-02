@@ -1,0 +1,206 @@
+(* Module for axiomatizing type "integer", created in Gnat2Why.Types.Translate_Type *)
+module Standard__integer
+  
+  use import _gnatprove_standard.Main
+  use import int.Int
+  use import int.Int
+  
+  type integer  = <range -2147483648 2147483647>
+  
+  function   first () requires { True } ensures  { True } returns
+    int = -2147483648
+  
+  function   last () requires { True } ensures  { True } returns
+    int = 2147483647
+  
+  function   in_range (x : int) requires { True } ensures  { True } returns
+     = ((first <= x) /\ (x <= last))
+  
+  clone export ada__model.Static_Discrete with axiom . type t = integer,
+    function first = first, function last = last,
+    predicate in_range = in_range
+  
+  type integer__ref  = { mutable integer__content : integer }
+  
+  function   integer__ref_integer__content__projection (a : integer__ref)
+    requires {  } ensures  {  } returns integer = a.integer__content
+  
+  meta model_projection function integer__ref_integer__content__projection
+  
+  meta inline:no function integer__ref_integer__content__projection
+  
+  function   integer__havoc (x : integer__ref) requires {  } ensures  {  }
+    returns unit
+
+end
+
+(* Module giving axioms for type "integer", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__integer___axiom
+  
+  use import _gnatprove_standard.Main
+  use import int.Int
+  use import int.Int
+  use        Standard__integer
+  
+  function   dynamic_invariant
+    (([mlw:proxy_symbol] [introduced] temp___expr_18) : int
+    ([mlw:proxy_symbol] [introduced] temp___is_init_14) : bool
+    ([mlw:proxy_symbol] [introduced] temp___skip_constant_15) : bool
+    ([mlw:proxy_symbol] [introduced] temp___do_toplevel_16) : bool
+    ([mlw:proxy_symbol] [introduced] temp___do_typ_inv_17) : bool) requires
+    { True } ensures  { True } returns
+     = (if
+       ((([mlw:proxy_symbol] [introduced] temp___is_init_14) = True) \/
+          (Standard__integer.first <= Standard__integer.last))
+       then
+       (Standard__integer.dynamic_property Standard__integer.first
+          Standard__integer.last ([mlw:proxy_symbol]
+          [introduced] temp___expr_18))
+       )
+  
+  function   default_initial_assumption
+    (([mlw:proxy_symbol] [introduced] temp___expr_19) : int
+    ([mlw:proxy_symbol] [introduced] temp___skip_top_level_20) : bool)
+    requires { True } ensures  { True } returns  = True
+
+end
+
+(* Module for defining the constant "v0" defined at airbag_system.ads:59, created in Gnat2Why.Decls.Translate_Constant *)
+module Airbag_system__getgforce__v0
+  
+  use import _gnatprove_standard.Main
+  use import int.Int
+  
+  function [name:V0] [model_trace:1320] [sloc:airbag_system.ads:59] v0 
+    () requires {  } ensures  {  } returns int
+
+end
+
+(* Module for defining the constant "v1" defined at airbag_system.ads:59, created in Gnat2Why.Decls.Translate_Constant *)
+module Airbag_system__getgforce__v1
+  
+  use import _gnatprove_standard.Main
+  use import int.Int
+  
+  function [name:V1] [model_trace:1321] [sloc:airbag_system.ads:59] v1 
+    () requires {  } ensures  {  } returns int
+
+end
+
+(* Module for defining the constant "t" defined at airbag_system.ads:59, created in Gnat2Why.Decls.Translate_Constant *)
+module Airbag_system__getgforce__t
+  
+  use import _gnatprove_standard.Main
+  use import int.Int
+  
+  function [model_trace:1322] [name:T] [sloc:airbag_system.ads:59] t 
+    () requires {  } ensures  {  } returns int
+
+end
+
+(* Module giving an empty axiom for the entity "v0" defined at airbag_system.ads:59, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Airbag_system__getgforce__v0___axiom
+  
+  use import _gnatprove_standard.Main
+  use import int.Int
+  
+  
+
+end
+
+(* Module giving an empty axiom for the entity "v1" defined at airbag_system.ads:59, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Airbag_system__getgforce__v1___axiom
+  
+  use import _gnatprove_standard.Main
+  use import int.Int
+  
+  
+
+end
+
+(* Module giving an empty axiom for the entity "t" defined at airbag_system.ads:59, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Airbag_system__getgforce__t___axiom
+  
+  use import _gnatprove_standard.Main
+  use import int.Int
+  
+  
+
+end
+
+(* Module for checking contracts and absence of run-time errors in subprogram "getgforce" defined at airbag_system.ads:59, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+module Airbag_system__getgforce__subprogram_def
+  
+  use import _gnatprove_standard.Main
+  use import int.Int
+  use import int.Int
+  use        _gnatprove_standard.Int_Division
+  use        Standard__integer
+  use        Standard__integer___axiom
+  use        Airbag_system__getgforce__v0
+  use        Airbag_system__getgforce__v1
+  use        Airbag_system__getgforce__t
+  use        Standard__integer___axiom
+  use        Standard__integer___axiom
+  use        Airbag_system__getgforce__v0___axiom
+  use        Airbag_system__getgforce__v1___axiom
+  use        Airbag_system__getgforce__t___axiom
+  
+  val airbag_system__getgforce__result [model_projected] [name:getGForce]
+  [model_trace:1319@result] : int
+  
+  function [GP_Subp:airbag_system.ads:59] [sloc:airbag_system.ads:59] def
+    (__void_param : unit) requires { True } ensures  {  } returns
+     = (* Assume dynamic invariants of inputs of the subprogram airbag_system.ads:59 *);
+        assume
+        { (Standard__integer___axiom.dynamic_invariant
+             Airbag_system__getgforce__v0.v0 True False True True) };
+        assume
+        { (Standard__integer___axiom.dynamic_invariant
+             Airbag_system__getgforce__v1.v1 True False True True) };
+        assume
+        { (Standard__integer___axiom.dynamic_invariant
+             Airbag_system__getgforce__t.t True False True True) };
+        (* Assume moved pointers in outputs of the subprogram airbag_system.ads:59 *);
+        (* Check for RTE in the Pre of the subprogram airbag_system.ads:59 *);
+        abstract ensures
+        { True } begin  (let _ = True in ())  end;
+        (* Assume Pre of the subprogram airbag_system.ads:59 *);
+        (try
+        ();
+          ([GP_Sloc:airbag_system.ads:60:17] ([sloc:airbag_system.ads:60] (
+                                             airbag_system__getgforce__result
+                                             :=
+                                             ( ([sloc:airbag_system.ads:60] 
+                                               ([GP_Shape:return__div]
+                                               [GP_Sloc:airbag_system.ads:60:17]
+                                               [vc:annotation]
+                                               [GP_Reason:VC_OVERFLOW_CHECK]
+                                               [comment:     ((V1 - V0) / (T));                 ^ airbag_system.ads:60:17:VC_OVERFLOW_CHECK]
+                                               [GP_Id:8] (Standard__integer.range_check_
+                                                            ([sloc:airbag_system.ads:60] 
+                                                            ([GP_Shape:return__div]
+                                                            [GP_Sloc:airbag_system.ads:60:17]
+                                                            [vc:annotation]
+                                                            [GP_Reason:VC_DIVISION_CHECK]
+                                                            [comment:     ((V1 - V0) / (T));                 ^ airbag_system.ads:60:17:VC_DIVISION_CHECK]
+                                                            [GP_Id:7] (
+                                                            _gnatprove_standard.Int_Division.div_
+                                                              ([sloc:airbag_system.ads:60] 
+                                                              ([comment:     ((V1 - V0) / (T));           ^ airbag_system.ads:60:11:VC_OVERFLOW_CHECK]
+                                                              [vc:annotation]
+                                                              [GP_Reason:VC_OVERFLOW_CHECK]
+                                                              [GP_Shape:return__div__sub]
+                                                              [GP_Id:6]
+                                                              [GP_Sloc:airbag_system.ads:60:11] (
+                                                              Standard__integer.range_check_
+                                                                (Airbag_system__getgforce__v1.v1
+                                                                   - Airbag_system__getgforce__v0.v0))))
+                                                              Airbag_system__getgforce__t.t))))))));
+                                             raise Return__exc));
+          raise Return__exc with | Return__exc  -> ());
+        abstract ensures
+        { True } begin  (let _ = True in ())  end;
+        !airbag_system__getgforce__result
+
+end

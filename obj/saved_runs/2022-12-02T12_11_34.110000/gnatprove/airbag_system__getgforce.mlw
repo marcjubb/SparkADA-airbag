@@ -1,0 +1,235 @@
+module Standard__integer
+  use _gnatprove_standard.Main
+  use int.Int
+  use int.Int
+  
+  type integer = <range -2147483648 2147483647>
+  
+  val function first : int
+    ensures { result = ((- 2147483648) : int) }
+  
+  val function last : int
+    ensures { result = (2147483647 : int) }
+  
+  predicate in_range (x: int) = ((first <= x) /\ (x <= last))
+  
+  val in_range (x: int) : bool
+    ensures { result <-> (in_range (x : int)) }
+  
+  clone export ada__model.Static_Discrete with
+    axiom .,
+    type t = integer,
+    function first = first,
+    function last = last,
+    predicate in_range = in_range
+  
+  type integer__ref = { mutable integer__content : integer }
+  
+  function integer__ref_integer__content__projection (a: integer__ref) : integer =
+    a.integer__content
+  
+  meta "model_projection" function integer__ref_integer__content__projection
+  
+  meta "inline:no" function integer__ref_integer__content__projection
+  
+  val integer__havoc (x: integer__ref) : unit
+    writes { x }
+end
+
+module Standard__integer___axiom
+  use _gnatprove_standard.Main
+  use int.Int
+  use int.Int
+  use Standard__integer as Standard__integer
+  
+  predicate dynamic_invariant (temp___expr_18: int) (temp___is_init_14: bool) (temp___skip_constant_15: bool) (temp___do_toplevel_16: bool) (temp___do_typ_inv_17: bool) =
+    if ((temp___is_init_14 = True) \/
+          (Standard__integer.first <= Standard__integer.last)) then
+      (((Standard__integer.dynamic_property Standard__integer.first)
+          Standard__integer.last)
+         temp___expr_18)
+    else true
+  
+  val dynamic_invariant (temp___expr_18: int) (temp___is_init_14: bool) (temp___skip_constant_15: bool) (temp___do_toplevel_16: bool) (temp___do_typ_inv_17: bool) : 
+    bool
+    ensures { result
+                <->
+                (((((dynamic_invariant (temp___expr_18 : int))
+                      (temp___is_init_14 : bool))
+                     (temp___skip_constant_15 : bool))
+                    (temp___do_toplevel_16 : bool))
+                   (temp___do_typ_inv_17 : bool)) }
+  
+  predicate default_initial_assumption (temp___expr_19: int) (temp___skip_top_level_20: bool) =
+    true
+  
+  val default_initial_assumption (temp___expr_19: int) (temp___skip_top_level_20: bool) : 
+    bool
+    ensures { result
+                <->
+                ((default_initial_assumption (temp___expr_19 : int))
+                   (temp___skip_top_level_20 : bool)) }
+end
+
+module Airbag_system__getgforce__v0
+  use _gnatprove_standard.Main
+  use int.Int
+  
+  val function v0 : int
+end
+
+module Airbag_system__getgforce__v1
+  use _gnatprove_standard.Main
+  use int.Int
+  
+  val function v1 : int
+end
+
+module Airbag_system__getgforce__t
+  use _gnatprove_standard.Main
+  use int.Int
+  
+  val function t : int
+end
+
+module Airbag_system__getgforce__v0___axiom
+  use _gnatprove_standard.Main
+  use int.Int
+end
+
+module Airbag_system__getgforce__v1___axiom
+  use _gnatprove_standard.Main
+  use int.Int
+end
+
+module Airbag_system__getgforce__t___axiom
+  use _gnatprove_standard.Main
+  use int.Int
+end
+
+module Airbag_system__getgforce__subprogram_def
+  use _gnatprove_standard.Main
+  use int.Int
+  use int.Int
+  use _gnatprove_standard.Int_Division as Int_Division
+  use _gnatprove_standard.Boolean as Boolean
+  use Standard__integer as Standard__integer
+  use Standard__integer___axiom as Standard__integer___axiom
+  use Airbag_system__getgforce__v0 as Airbag_system__getgforce__v0
+  use Airbag_system__getgforce__v1 as Airbag_system__getgforce__v1
+  use Airbag_system__getgforce__t as Airbag_system__getgforce__t
+  use Standard__integer___axiom as Standard__integer___axiom
+  use Standard__integer___axiom as Standard__integer___axiom
+  use Airbag_system__getgforce__v0___axiom as Airbag_system__getgforce__v0___axiom
+  use Airbag_system__getgforce__v1___axiom as Airbag_system__getgforce__v1___axiom
+  use Airbag_system__getgforce__t___axiom as Airbag_system__getgforce__t___axiom
+  
+  val airbag_system__getgforce__result : int__ref
+  
+  let def (__void_param : unit)
+    requires { [#"airbag_system.ads" 59 0 0] true }
+  = [@vc:divergent]
+    (([@GNAT-comment:Assume dynamic invariants of inputs of the subprogram airbag_system.ads:59]
+      ());
+     ([#"airbag_system.ads" 59 0 0]
+      assume {
+        [#"airbag_system.ads" 59 0 0]
+        (((((Standard__integer___axiom.dynamic_invariant
+               Airbag_system__getgforce__v0.v0)
+              True)
+             False)
+            True)
+           True) });
+     ([#"airbag_system.ads" 59 0 0]
+      assume {
+        [#"airbag_system.ads" 59 0 0]
+        (((((Standard__integer___axiom.dynamic_invariant
+               Airbag_system__getgforce__v1.v1)
+              True)
+             False)
+            True)
+           True) });
+     ([#"airbag_system.ads" 59 0 0]
+      assume {
+        [#"airbag_system.ads" 59 0 0]
+        (((((Standard__integer___axiom.dynamic_invariant
+               Airbag_system__getgforce__t.t)
+              True)
+             False)
+            True)
+           True) });
+     ([@GNAT-comment:Assume moved pointers in outputs of the subprogram airbag_system.ads:59]
+      ());
+     ([@GNAT-comment:Check for RTE in the Pre of the subprogram airbag_system.ads:59]
+      ());
+     ([#"airbag_system.ads" 59 0 0]
+      (begin
+         ensures { true }
+         let _ =
+           let _ =
+             (Boolean.andb
+                ((Boolean.andb
+                    ((Boolean.andb
+                        ((Boolean.andb
+                            (Airbag_system__getgforce__t.t > (0 : int)))
+                           (Airbag_system__getgforce__v0.v0
+                              > ((- 150000) : int))))
+                       (Airbag_system__getgforce__v0.v0 < (150000 : int))))
+                   (Airbag_system__getgforce__v1.v1 > ((- 150000) : int))))
+               (Airbag_system__getgforce__v1.v1 < (150000 : int)) in
+           () in
+         ()
+       end));
+     ([@GNAT-comment:Assume Pre of the subprogram airbag_system.ads:59] ());
+     ([#"airbag_system.ads" 59 0 0]
+      assume {
+        [#"airbag_system.ads" 59 0 0]
+        ((((([@GP_Pretty_Ada:1340]
+             (Airbag_system__getgforce__t.t > (0 : int))) /\
+              ([@GP_Pretty_Ada:1343]
+               (Airbag_system__getgforce__v0.v0 > ((- 150000) : int)))) /\
+             ([@GP_Pretty_Ada:1349]
+              (Airbag_system__getgforce__v0.v0 < (150000 : int)))) /\
+            ([@GP_Pretty_Ada:1352]
+             (Airbag_system__getgforce__v1.v1 > ((- 150000) : int)))) /\
+           ([@GP_Pretty_Ada:1358]
+            (Airbag_system__getgforce__v1.v1 < (150000 : int)))) });
+     ([#"airbag_system.ads" 59 0 0]
+      (try
+         ([@GP_Sloc:airbag_system.ads:60:17]
+          [#"airbag_system.ads" 60 0 0]
+          (([#"airbag_system.ads" 60 0 0]
+            (airbag_system__getgforce__result.int__content <-
+               ([#"airbag_system.ads" 60 0 0]
+                [@GP_Shape:return__div]
+                [@GP_Sloc:airbag_system.ads:60:17]
+                [@comment:     ((V1 - V0) / (T)) with                 ^ airbag_system.ads:60:17:VC_OVERFLOW_CHECK]
+                [@vc:annotation]
+                [@GP_Reason:VC_OVERFLOW_CHECK]
+                [@GP_Id:9]
+                (Standard__integer.range_check_
+                   ([#"airbag_system.ads" 60 0 0]
+                    [@GP_Shape:return__div]
+                    [@GP_Sloc:airbag_system.ads:60:17]
+                    [@comment:     ((V1 - V0) / (T)) with                 ^ airbag_system.ads:60:17:VC_DIVISION_CHECK]
+                    [@vc:annotation]
+                    [@GP_Reason:VC_DIVISION_CHECK]
+                    [@GP_Id:8]
+                    ((Int_Division.div_
+                        ([#"airbag_system.ads" 60 0 0]
+                         [@comment:     ((V1 - V0) / (T)) with           ^ airbag_system.ads:60:11:VC_OVERFLOW_CHECK]
+                         [@vc:annotation]
+                         [@GP_Reason:VC_OVERFLOW_CHECK]
+                         [@GP_Shape:return__div__sub]
+                         [@GP_Id:7]
+                         [@GP_Sloc:airbag_system.ads:60:11]
+                         (Standard__integer.range_check_
+                            (Airbag_system__getgforce__v1.v1
+                               - Airbag_system__getgforce__v0.v0))))
+                       Airbag_system__getgforce__t.t))))));
+           ((raise Return__exc) : unit)));
+         (raise Return__exc)
+       with Return__exc -> ()
+       end));
+     (airbag_system__getgforce__result.int__content))
+end

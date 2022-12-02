@@ -1,0 +1,480 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\main.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 21" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 23" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 50" line=" 21" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 38" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 39" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 37" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 39" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 37" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 79" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 78" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 17" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 39" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 39" line=" 36" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 39" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 17" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 14" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 39" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 39" line=" 36" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 79" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 56" line=" 82" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 39" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 12" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 78" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 33" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\as_io_wrapper.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 79" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\main.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 60" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 65" line=" 40" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 32" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 60" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 65" line=" 40" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 24" line=" 60" >
+      <vfs_project>H:\SparkADA\coursework2\2.0\airbagsystem.gpr</vfs_project>
+      <vfs_file>H:\SparkADA\coursework2\2.0\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 15">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >H:\SparkADA\coursework2\src\main.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\main.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 10">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\cooling_system_nuclear_power.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 38" line=" 22">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 41">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\cooling_system_nuclear_power.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 38" line=" 9">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 20">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 36">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 70" line=" 23">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 31">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 23">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 47">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\main.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 3" line=" 3">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\main.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 51" line=" 23">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 102">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 24">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 16">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 37" line=" 25">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 48" line=" 16">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 54" line=" 21">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 47" line=" 28">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 26">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 54" line=" 28">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 47" line=" 72">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 28">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 47" line=" 72">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 43" line=" 15">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 17">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 15">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 44" line=" 12">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 61" line=" 15">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 14">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 13">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 109">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 34" line=" 9">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 36">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 117">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 62">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 117">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 36">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 32">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 45">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 51" line=" 56">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 60" line=" 45">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 39" line=" 43">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 53" line=" 45">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\Airbag_System.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 98">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 97">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 98">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 119">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 121">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 125">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 98">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 109">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 98">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 109">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 115">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 119">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 125">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 127">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 11">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 27">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\spark-text_io-integer_io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 25">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\spark-text_io-integer_io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 125">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 109">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 115">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 119">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 31" line=" 115">
+      <vfs_project >H:\SparkADA\coursework2\airbagsystem.gpr</vfs_project>
+      <vfs_file >H:\SparkADA\coursework2\src\as_io_wrapper.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

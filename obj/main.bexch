@@ -1,0 +1,24 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\GNAT\2.0-main\airbagsystem.gpr
+20221202004340 969d2ce4ebbecdcfd84510f909cd5fd9
+[BOUND OBJECT FILES]
+C:\GNAT\2.0-main\obj\spark.o
+C:\GNAT\2.0-main\obj\spark-text_io.o
+C:\GNAT\2.0-main\obj\spark-text_io-integer_io.o
+C:\GNAT\2.0-main\obj\as_io_wrapper.o
+C:\GNAT\2.0-main\obj\Airbag_System.o
+C:\GNAT\2.0-main\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\GNAT\2.0-main\obj\
+-LC:\GNAT\2.0-main\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

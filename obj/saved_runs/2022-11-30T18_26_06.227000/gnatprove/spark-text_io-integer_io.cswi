@@ -1,0 +1,7 @@
+              
+-c
+-x
+ada
+-gnatA
+-gnatc
+-gnates=H:\SparkADA\coursework2\2.0\obj\gnatprove\34b88b0d.tmp
